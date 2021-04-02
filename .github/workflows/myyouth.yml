@@ -39,13 +39,7 @@ jobs:
             YOUTH_READTIMEBODY2: ${{ secrets.YOUTH_READTIMEBODY2 }}  #非必须 账号2 body2
             YOUTH_WITHDRAWBODY2: ${{ secrets.YOUTH_READTIMEBODY2 }}  #非必须 账号2提现 body2
             YOUTH_SHAREBODY2: ${{ secrets.YOUTH_SHAREBODY2 }}  #非必须 账号2 body2
-            YOUTH_STARTBODY2: ${{ secrets.YOUTH_STARTBODY2 }}  #必须 账号2 body2
-            YOUTH_HEADER3: ${{ secrets.YOUTH_HEADER3 }}  #非必须 账号3 body3
-            YOUTH_READBODY3: ${{ secrets.YOUTH_READBODY3 }}  #非必须 账号3 body3
-            YOUTH_READTIMEBODY3: ${{ secrets.YOUTH_READTIMEBODY3 }}  #非必须 账号3 body3
-            YOUTH_WITHDRAWBODY3: ${{ secrets.YOUTH_READTIMEBODY3 }}  #非必须 账号3 提现 body3
-            YOUTH_SHAREBODY3: ${{ secrets.YOUTH_SHAREBODY3 }}  #非必须 账号3 body3
-            YOUTH_STARTBODY3: ${{ secrets.YOUTH_STARTBODY3 }}  #必须 账号3 body3            
+            YOUTH_STARTBODY2: ${{ secrets.YOUTH_STARTBODY2 }}  #必须 账号2 body2      
             BARK: ${{ secrets.BARK }}  #非必须 bark通知
             SCKEY: ${{ secrets.SCKEY }}  #非必须 server酱通知
             TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}  #非必须 tg机器人token
